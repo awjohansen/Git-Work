@@ -801,13 +801,12 @@ body
     }
   .fatty
     {
-        float: right;
-        padding: 17px 38px 16px 22px;
+
         display: none;
     }
   .person
     {
-        float: right;
+
         display: none;
     }
     .logo
@@ -820,8 +819,7 @@ body
     }
     .header_txt
     {
-        float: right;
-        padding: 16px 9px 13px 0;
+    
         display: none;
     }
   .most_popular_lt
