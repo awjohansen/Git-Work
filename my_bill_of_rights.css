@@ -1,0 +1,67 @@
+h1 {
+margin: 0px auto;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 60pt;
+font-family: sans-serif;
+text-shadow: 9px 0px 10px #4AB18E;
+line-height: 120px;
+animation: hueRotate 5s linear infinite;
+}
+
+h2 {
+margin: 0px auto;
+margin-bottom: 20px;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 38pt;
+font-family: sans-serif;
+line-height: 120px;
+animation: hueRotate 5s linear infinite;
+}
+
+li {
+margin: 0px auto;
+margin-bottom: 20px;
+max-width: 1000px;
+position: relative;
+color: #6EFCBB;
+font-weight: bold;
+font-size: 20pt;
+font-family: sans-serif;
+line-height: 30px;
+animation: hueRotate 5s linear infinite;
+l
+}
+
+p {
+  margin: 0px auto;
+  max-width: 1000px;
+  position: relative;
+  color: #FF00FF;
+  font-weight: bold;
+  font-size: 5em, 28pt
+  font-size: 28pt;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+body {
+    background: #00ff00 url("http://66.media.tumblr.com/160cc479c36fcb6078ab5a567b44c732/tumblr_o44k9qh5iO1u3ji4yo1_500.gif");
+}
+
+
+
+
+
+
+@keyframes hueRotate {
+  0% { filter: hue-rotate(0deg);
+  ; }
+  50% { filter: hue-rotate(180deg); }
+  100% { filter: hue-rotate(359deg); }
+}

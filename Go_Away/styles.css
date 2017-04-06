@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+}
+
+.trackinfo {
+  z-index: 2;
+  position: absolute;
+  bottom: 14px;
+  left: 0px;
+
+}
+
+.socialmedia {
+  z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  right: 0px;
+
+}
+
+  .head {
+    z-index: 2;
+    max-width:100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    left:4px
+
+
+
+}
+
+  .ghost-button1 {
+  z-index: 2;
+  display: inline-block;
+  width: 245px;
+  position: absolute;
+  bottom: 14px;
+  left: 40px;
+  padding: -1px;
+  color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button2 {
+  z-index: 2;
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  bottom: 15px;
+  right: 360px;
+  padding: -1px;
+  color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+  .ghost-button3 {
+  z-index: 2;
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  bottom: 15px;
+  right: 250px;
+  padding: -1px;
+  color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+  .ghost-button4 {
+  z-index: 2;
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  bottom: 15px;
+  right: 150px;
+  padding: -1px;
+  color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  }
+
+  .ghost-button5 {
+  z-index: 2;
+  display: inline-block;
+  width: 100px;
+  position: absolute;
+  bottom: 15px;
+  right: 50px;
+  padding: -1px;
+  color: transparent;
+  border: 1px solid transparent;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  }
+
+  .iframe {
+    z-index: 99;
+    width:50%;
+    height:75%;
+    position:fixed;
+    top: 10%;
+    left: 25%;
+    display: block;
+    margin: auto;
+    border: 0;
+}
+
+
+
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
