@@ -219,6 +219,7 @@ body
 {
     float: right;
     padding: 13px 56px 10px 10px;
+
 }
 
 @media (min-width:600px)
@@ -234,6 +235,7 @@ body
 {
     color: #434343;
     line-height: 13px;
+    margin-top: 18px;
     text-transform: uppercase;
 }
 
@@ -643,7 +645,7 @@ body
 .empty
 {
     background: #ff1295;
-    min-height: 78px;
+    min-height: 50px;
     display: block;
 }
 
@@ -819,7 +821,7 @@ body
     }
     .header_txt
     {
-    
+
         display: none;
     }
   .most_popular_lt
@@ -834,11 +836,11 @@ body
     {
         position: absolute;
         font-family: 'Gloria Hallelujah', cursive;
-        bottom: -30px;
+        bottom: -20px;
         left: 0;
         width: 0px;
-        max-width: 0px;
-        font-size: 0px;
+
+
     }
     .popular_in_txt a
     {
@@ -855,15 +857,7 @@ body
 
 .most_popular_rt
     {
-        float: none;
-        padding: 39px 0 0 4;
-        max-width: 1px;
-        min-width: 0px;
-        min-height: 1px;
-        max-height: 2px;
-        margin-left: 1px;
-        height: 0px;
-        margin-right: 2px;
+      display:none
     }
 .section
     {
@@ -873,6 +867,11 @@ body
         width: -1px;
         font-size: 0px;
     }
+
+    .footer_nav
+      {
+        display:none;
+
 
 }
 
