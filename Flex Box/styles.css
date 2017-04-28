@@ -1,0 +1,154 @@
+body {
+  background-color:white;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: left;
+    width:350px;
+    font-family:"prototype";
+}
+
+.flex-container > * {
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
+
+.flex-container2 > * {
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
+
+h2 {
+  font-size:20px;
+  font-weight:lighter;
+  font-family: helvetica;
+}
+
+h3 {
+  position:relative;
+  left:400px;
+  font-family:helvetica;
+  font-size:15px;
+  font-weight:lighter;
+  color:grey;
+}
+
+p {
+  font-family: helvetica;
+  font-size:20px;
+}
+
+header {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+header div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+}
+header div img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    padding:25px;
+    border: white;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 3000px;
+}
+
+
+.content.col-10{
+
+}
+
+.content.content-bump.col-6{
+  margin-left:0%;
+}
+
+.content.col-8{
+  margin-left:16.66%;
+}
+
+@media screen (max-width: 100px){
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+
+  .meta{
+    margin-left: 0;
+  }
+
+  @media screen and (max-width: 1560px){
+    .col-m-5 {width:50%;}
+  }
+
+  @media screen and (max-width:760px){
+    [class*="col-"] {
+      width:100%
+    }
+
+    .content {
+      margin-left:0;
+    }
+
+    .meta{
+      margin-left:0;
+    }
+  }
